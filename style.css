@@ -146,6 +146,10 @@ a.active {
 
 
 
+.back-to-top {
+  display: none;
+}
+
 
 
 
@@ -167,6 +171,9 @@ a.active {
   .links {
     position: relative;
     bottom: inherit;
+  }
+  .back-to-top {
+    display: block;
   }
 }
 
