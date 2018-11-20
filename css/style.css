@@ -20,67 +20,88 @@ a.active {
   font-weight: 500;
 }
 
-.left {
-  width: 20%;
-  padding: 24px;
-  height: 100%;
-  position: fixed;
-  float: left;
+
+/* OVERRIDES */
+.container {
+  max-width: none;
+}
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.column, .columns {
+  padding: 20px;
+}
+
+
+
+/* SIDERBAR NAV */
+.header{
   background-color: #F8F9FA;
 }
-
-
-
-
-.logo {
-  font-family: 'Gilda Display', serif;
-  font-size: 32px;
-  margin-bottom: 40px;
-}
-
-.nav {
-  font-family: 'Montserrat', sans-serif;
-}
-  .nav ul {
-    margin: 0;
-    padding: 0;
+  .columns .sidebar {
+    padding: 20px;
+    margin: -20px;
+    position: relative;
+    background-color: #F8F9FA;
   }
-    .nav ul li {
-      list-style: none;
-      margin-bottom: 24px;
+  @media (min-width: 550px) { /*Skeletons default grid-activation width*/
+    .columns .sidebar{
+      height: 100%;
+      position: fixed;
+      margin-left: -20px;
     }
-      .nav ul li a {
-        text-decoration: none;
-        font-size: 18px;
-        display: block;
+  }
+
+    .logo {
+      font-family: 'Gilda Display', serif;
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+
+    .nav {
+      font-family: 'Montserrat', sans-serif;
+    }
+      .nav ul {
+        margin: 0;
+        padding: 0;
       }
-.links {
-  position: absolute;
-  bottom: 8%;
-  font-size: 12px;
-  line-height: 20px;
-}
-  .links a {
-    /*text-decoration: none;*/
-  }
-  .links ul {
-    margin: 0;
-    padding: 0;
-  }
-    .links ul li {
-      list-style: none;
-      display: inline-block;
+        .nav ul li {
+          list-style: none;
+          margin-bottom: 24px;
+        }
+          .nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+          }
+    .links {
+      position: absolute;
+      bottom: 8%;
+      font-size: 12px;
+      line-height: 20px;
     }
+      .links a {
+        /*text-decoration: none;*/
+      }
+      .links ul {
+        margin: 0;
+        padding: 0;
+      }
+        .links ul li {
+          list-style: none;
+          display: inline-block;
+        }
 
-
-
-.right {
-  width: 70%;
-  float: left;
-  padding: 24px;
-  margin-left: 25%;
-
-}
 
 .mad-lib {
   margin: 96px 0;
@@ -145,29 +166,11 @@ a.active {
     }
 
 
-
 .back-to-top {
   display: none;
 }
 
-
-
-
-
 @media screen and (max-width: 800px) {
-  .left {
-    width: 100%;
-    float: none;
-    position: relative;
-    height: auto;
-    padding: 16px;
-  }
-  .right {
-    width: 100%;
-    float: none;
-    padding: 16px;
-    margin-left: 0;
-  }
   .links {
     position: relative;
     bottom: inherit;
@@ -176,12 +179,6 @@ a.active {
     display: block;
   }
 }
-
-
-
-
-
-
 
 
 

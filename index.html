@@ -5,13 +5,15 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 
+	<!-- STYLE -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-
-
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Gilda+Display|Montserrat|Roboto" rel="stylesheet">
 
+	<!-- FAVICON -->
 	<link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -31,7 +33,6 @@
 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129374987-1"></script>
 	<script>
@@ -45,216 +46,206 @@
 
 <body>
 
-<div class="left">
-	<div class="logo">Design Mad Libs</div>
+	<div class="container">
+		<div class="row">
+			<div class="three columns header">
+				<div class="three columns sidebar">
+					<div class="logo">Design Mad Libs</div>
 
-	<div class="nav">
-		<ul>
-			<li class="how-might-we"><a href="#how-might-we">How Might We</a></li>
-			<li class="job-story"><a href="#job-story">Job Story</a></li>
-			<li class="jobs-to-be-done"><a href="#jobs-to-be-done">Jobs To Be Done</a></li>
-			<li class="key-insight"><a href="#key-insight">Key Insight</a></li>
-			<li class="problem-statement"><a href="#problem-statement">Problem Statement</a></li>
-			<li class="product-vision"><a href="#product-vision">Product Vision</a></li>
-			<li class="user-story"><a href="#user-story">User Story</a></li>
-		</ul>
+					<div class="nav">
+						<ul>
+							<li class="how-might-we"><a href="#how-might-we">How Might We</a></li>
+							<li class="job-story"><a href="#job-story">Job Story</a></li>
+							<li class="jobs-to-be-done"><a href="#jobs-to-be-done">Jobs To Be Done</a></li>
+							<li class="key-insight"><a href="#key-insight">Key Insight</a></li>
+							<li class="problem-statement"><a href="#problem-statement">Problem Statement</a></li>
+							<li class="product-vision"><a href="#product-vision">Product Vision</a></li>
+							<li class="user-story"><a href="#user-story">User Story</a></li>
+						</ul>
+					</div>
+
+					<div class="links">
+						<ul>
+							<li><a href="">Submit</a></li>
+							|
+							<li><a href="">About</a></li>
+							|
+							<li><a href="">Feedback</a></li>
+						</ul>
+						Built by <a href="http://alexakaminsky.com">Alexa</a>
+					</div>
+				</div>
+			</div>
+	   		<div class="nine columns content">
+				<div class="mad-lib" id="how-might-we">
+					<h2 class="mad-lib-title">
+						How might we
+					</h2>
+					<p class="mad-lib-formula">
+					  How might we <span class="highlight"><span class="under">solve problem from key insight/user story</span> </span>
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					</p>
+					<div class="mad-lib-resources">
+						<p class="resource-title">Resources</p>
+						<ul>
+							<li><a href="http://www.designkit.org/methods/3" target="_blank">Design Kit</a></li>
+							<li><a href="https://www.thisisservicedesigndoing.com/methods/how-might-we-questions-from-insights-and-user-stories" target="_blank">This is service design doing</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="mad-lib" id="job-story">
+					<h2 class="mad-lib-title">
+						Job Story
+					</h2>
+					<p class="mad-lib-formula">
+					  When <span class="highlight"><span class="under">situation</span> </span>
+					  I need <span class="highlight"><span class="under">motivation</span></span>
+					  so I can <span class="highlight"><span class="under"> result </span></span>
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					</p>
+				</div>
+
+				<div class="mad-lib" id="jobs-to-be-done">
+					<h2 class="mad-lib-title">
+						Jobs To Be Done
+					</h2>
+					<p class="mad-lib-formula">
+					  When <span class="highlight"><span class="under">situation/motivation</span> </span>, 
+					  <span class="highlight"><span class="under">product/feature</span> </span>
+					  helps you <span class="highlight"><span class="under">desire</span></span>
+					  so you can <span class="highlight"><span class="under"> result </span></span>
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					</p>
+				</div>
+
+				<div class="mad-lib" id="key-insight">
+					<h2 class="mad-lib-title">
+						Key Insight
+					</h2>
+					<p class="mad-lib-formula">
+					  <span class="highlight"><span class="under">persona/character</span> </span>
+					  wants <span class="highlight"><span class="under">action/situation</span> </span>
+					  because <span class="highlight"><span class="under">aim, need, outcome</span></span>
+					  but <span class="highlight"><span class="under">restriction, obstacle, friction</span></span>
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Alan wants to eat less chocolate because it makes him fat but it makes him feel safe
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					</p>
+					<div class="mad-lib-resources">
+						<p class="resource-title">Resources</p>
+						<ul>
+							<li><a href="https://thrivethinking.com/2016/03/28/what-is-insight-definition/" target="_blank">Thrive Thinking</a></li>
+							<li><a href="http://www.designkit.org/methods/62" target="_blank">Design Kit</a></li>
+							<li><a href="https://www.thisisservicedesigndoing.com/methods/developing-key-insights" target="_blank">This is service design doing</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="mad-lib" id="problem-statement">
+					<h2 class="mad-lib-title">
+						Problem Statement
+					</h2>
+					<p class="mad-lib-formula">
+					  Currently we are not doing <span class="highlight"><span class="under">something</span> </span>.
+					  We want to <span class="highlight"><span class="under">something</span> </span>
+					  So that our customers can <span class="highlight"><span class="under">something</span></span>.
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						What are we not doing + opportunity + customer success
+					</p>
+
+					<div class="mad-lib-resources">
+						<p class="resource-title">Resources</p>
+						<ul>
+							<li><a href="https://www.interaction-design.org/literature/article/stage-2-in-the-design-thinking-process-define-the-problem-and-interpret-the-results" target="_blank">Interaction Design Foundation</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="mad-lib" id="product-vision">
+					<h2 class="mad-lib-title">
+						Product Vision
+					</h2>
+					<p class="mad-lib-formula">
+					  For <span class="highlight"><span class="under">target customer</span> </span>
+					  who <span class="highlight"><span class="under"> target customers need </span></span>
+					  the <span class="highlight"><span class="under"> product name </span></span>
+					  is a <span class="highlight"><span class="under"> product category </span></span>
+					  that <span class="highlight"><span class="under"> product benefit/reason to buy </span></span>
+					  unlike <span class="highlight"><span class="under"> competitors </span></span>
+					  our product <span class="highlight"><span class="under"> differentiator </span></span>
+					  supports our <span class="highlight"><span class="under"> objectives </span></span>
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					</p>
+				</div>
+
+				<div class="mad-lib" id="user-story">
+					<h2 class="mad-lib-title">
+						User story
+					</h2>
+					<p class="mad-lib-formula">
+					  As a <span class="highlight"><span class="under">user type</span> </span>
+					  I want to <span class="highlight"><span class="under"> desire </span></span>
+					  So that I can <span class="highlight"><span class="under"> result </span></span>
+					</p>
+					<p class="mad-lib-example">
+						<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p class="mad-lib-description">
+						<span class="description-title">What is this?</span>
+						Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					</p>
+
+					<div class="mad-lib-resources">
+						<p class="resource-title">Resources</p>
+						<ul>
+							<li><a href="https://www.uxpin.com/studio/ux-design/how-to-write-a-painless-user-story-for-agile-ux-teams/" target="_blank">UXPin</a></li>
+						</ul>
+					</div>
+				</div>
+
+	   		</div>
+	   	</div>
 	</div>
-
-	<div class="links">
-		<ul>
-			<li><a href="">Submit</a></li>
-			|
-			<li><a href="">About</a></li>
-			|
-			<li><a href="">Feedback</a></li>
-		</ul>
-		Built by <a href="http://alexakaminsky.com">Alexa</a>
-	</div>
-</div>
-<div class="right">
-
-	<div class="mad-lib" id="how-might-we">
-		<h2 class="mad-lib-title">
-			How might we
-		</h2>
-		<p class="mad-lib-formula">
-		  How might we <span class="highlight"><span class="under">solve problem from key insight/user story</span> </span>
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		</p>
-		<div class="mad-lib-resources">
-			<p class="resource-title">Resources</p>
-			<ul>
-				<li><a href="http://www.designkit.org/methods/3" target="_blank">Design Kit</a></li>
-				<li><a href="https://www.thisisservicedesigndoing.com/methods/how-might-we-questions-from-insights-and-user-stories" target="_blank">This is service design doing</a></li>
-			</ul>
-		</div>
-	</div>
-
-
-	<div class="mad-lib" id="job-story">
-		<h2 class="mad-lib-title">
-			Job Story
-		</h2>
-		<p class="mad-lib-formula">
-		  When <span class="highlight"><span class="under">situation</span> </span>
-		  I need <span class="highlight"><span class="under">motivation</span></span>
-		  so I can <span class="highlight"><span class="under"> result </span></span>
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		</p>
-	</div>
-
-	<div class="mad-lib" id="jobs-to-be-done">
-		<h2 class="mad-lib-title">
-			Jobs To Be Done
-		</h2>
-		<p class="mad-lib-formula">
-		  When <span class="highlight"><span class="under">situation/motivation</span> </span>, 
-		  <span class="highlight"><span class="under">product/feature</span> </span>
-		  helps you <span class="highlight"><span class="under">desire</span></span>
-		  so you can <span class="highlight"><span class="under"> result </span></span>
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		</p>
-	</div>
-
-	<div class="mad-lib" id="key-insight">
-		<h2 class="mad-lib-title">
-			Key Insight
-		</h2>
-		<p class="mad-lib-formula">
-		  <span class="highlight"><span class="under">persona/character</span> </span>
-		  wants <span class="highlight"><span class="under">action/situation</span> </span>
-		  because <span class="highlight"><span class="under">aim, need, outcome</span></span>
-		  but <span class="highlight"><span class="under">restriction, obstacle, friction</span></span>
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Alan wants to eat less chocolate because it makes him fat but it makes him feel safe
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		</p>
-		<div class="mad-lib-resources">
-			<p class="resource-title">Resources</p>
-			<ul>
-				<li><a href="https://thrivethinking.com/2016/03/28/what-is-insight-definition/" target="_blank">Thrive Thinking</a></li>
-				<li><a href="http://www.designkit.org/methods/62" target="_blank">Design Kit</a></li>
-				<li><a href="https://www.thisisservicedesigndoing.com/methods/developing-key-insights" target="_blank">This is service design doing</a></li>
-			</ul>
-		</div>
-	</div>
-
-	<div class="mad-lib" id="problem-statement">
-		<h2 class="mad-lib-title">
-			Problem Statement
-		</h2>
-		<p class="mad-lib-formula">
-		  Currently we are not doing <span class="highlight"><span class="under">something</span> </span>.
-		  We want to <span class="highlight"><span class="under">something</span> </span>
-		  So that our customers can <span class="highlight"><span class="under">something</span></span>.
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			What are we not doing + opportunity + customer success
-		</p>
-
-		<div class="mad-lib-resources">
-			<p class="resource-title">Resources</p>
-			<ul>
-				<li><a href="https://www.interaction-design.org/literature/article/stage-2-in-the-design-thinking-process-define-the-problem-and-interpret-the-results" target="_blank">Interaction Design Foundation</a></li>
-			</ul>
-		</div>
-
-
-
-
-
-
-
-	</div>
-
-	<div class="mad-lib" id="product-vision">
-		<h2 class="mad-lib-title">
-			Product Vision
-		</h2>
-		<p class="mad-lib-formula">
-		  For <span class="highlight"><span class="under">target customer</span> </span>
-		  who <span class="highlight"><span class="under"> target customers need </span></span>
-		  the <span class="highlight"><span class="under"> product name </span></span>
-		  is a <span class="highlight"><span class="under"> product category </span></span>
-		  that <span class="highlight"><span class="under"> product benefit/reason to buy </span></span>
-		  unlike <span class="highlight"><span class="under"> competitors </span></span>
-		  our product <span class="highlight"><span class="under"> differentiator </span></span>
-		  supports our <span class="highlight"><span class="under"> objectives </span></span>
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		</p>
-	</div>
-
-	<div class="mad-lib" id="user-story">
-		<h2 class="mad-lib-title">
-			User story
-		</h2>
-		<p class="mad-lib-formula">
-		  As a <span class="highlight"><span class="under">user type</span> </span>
-		  I want to <span class="highlight"><span class="under"> desire </span></span>
-		  So that I can <span class="highlight"><span class="under"> result </span></span>
-		</p>
-		<p class="mad-lib-example">
-			<span class="example-title">Example:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</p>
-		<p class="mad-lib-description">
-			<span class="description-title">What is this?</span>
-			Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		</p>
-
-		<div class="mad-lib-resources">
-			<p class="resource-title">Resources</p>
-			<ul>
-				<li><a href="https://www.uxpin.com/studio/ux-design/how-to-write-a-painless-user-story-for-agile-ux-teams/" target="_blank">UXPin</a></li>
-			</ul>
-		</div>
-	</div>
-
-
-<div class="back-to-top">
-	top
-</div>
-
-
-</div>
-
-
-
-
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+
 
 
 </body>
