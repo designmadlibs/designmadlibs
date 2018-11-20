@@ -38,6 +38,29 @@ a.active {
   }
 }
 
+/* HELPERS */
+.hidden-mobile {
+  display: none;
+}
+.hidden-desktop {
+  display: block;
+}
+@media (min-width: 550px) {
+  .hidden-desktop {
+    display: none;
+  }
+  .hidden-mobile {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
 .column, .columns {
   padding: 20px;
 }
