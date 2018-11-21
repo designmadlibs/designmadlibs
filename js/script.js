@@ -1,14 +1,24 @@
-$('.nav li').on("click", function() {
 
-	var className = $(this).attr('class');
+$(document).ready(function(){
 
-	var target = $('#'+className)
-    $('html, body').animate({
-      scrollTop: target.offset().top
-    }, 1000);
+    var pageURL = $(location).attr("href");
 
+	$('.nav li').on("click", function() {
+
+		var className = $(this).attr('class');
+
+		if(pageURL.includes("about")){
+			//var target = $('#'+className)
+			window.location.replace("index.html#" +className);
+		}
+		else {
+			var target = $('#'+className)
+			$('html, body').animate({
+		      scrollTop: target.offset().top
+		    }, 1000);
+		}
+	});
 });
-
 
 $('.back-to-top').on("click", function() {
 	var target = $('.logo')
@@ -25,5 +35,21 @@ $('.mobile-nav').on("change", function () {
     $('html, body').animate({
       scrollTop: target.offset().top
     }, 1000);
-
 });
+
+
+
+
+/*
+
+    $('.nav li').on("click", function() {
+
+	var className = $(this).attr('class');
+
+	var target = $('#'+className)
+    $('html, body').animate({
+      scrollTop: target.offset().top
+    }, 1000);
+
+
+}); */

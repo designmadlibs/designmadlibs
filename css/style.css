@@ -90,6 +90,12 @@ a.active {
       font-size: 32px;
       margin-bottom: 24px;
     }
+      .logo a {
+        text-decoration: none;
+      }
+      .logo a:hover {
+        color: #000;
+      }
     @media (min-width: 550px) {
       .logo {
         margin-bottom: 40px;
