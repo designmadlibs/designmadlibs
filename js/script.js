@@ -11,8 +11,17 @@ $('.nav li').on("click", function() {
 
 
 $('.back-to-top').on("click", function() {
+	var target = $('.logo')
+    $('html, body').animate({
+      scrollTop: target.offset().top
+    }, 1000);
+});
 
-	var target = $('.nav')
+
+$('.mobile-nav').on("change", function () {
+	var className=$(this).val();
+
+	var target = $('#'+className)
     $('html, body').animate({
       scrollTop: target.offset().top
     }, 1000);

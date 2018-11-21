@@ -88,7 +88,12 @@ a.active {
     .logo {
       font-family: 'Gilda Display', serif;
       font-size: 32px;
-      margin-bottom: 40px;
+      margin-bottom: 24px;
+    }
+    @media (min-width: 550px) {
+      .logo {
+        margin-bottom: 40px;
+      }
     }
 
     .nav {
@@ -108,8 +113,8 @@ a.active {
             display: block;
           }
     .links {
-      position: absolute;
-      bottom: 8%;
+      position: relative;
+      bottom: inherit;
       font-size: 12px;
       line-height: 20px;
     }
@@ -166,10 +171,13 @@ a.active {
         transform: rotate(3deg);
       }
   .mad-lib-example {
-
+    font-style: italic;
   }
     .example-title {
       font-weight: bold;
+      font-style: normal;
+      display: block;
+      margin-bottom: 8px;
     }
 
 
@@ -179,27 +187,48 @@ a.active {
 
     .description-title {
       font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
     }
 
   .mad-lib-resources {
 
   }
+    .mad-lib-resources ul {
+      margin-bottom: 0;
+    }
     .resource-title {
       font-weight: bold;
+      margin-bottom: 8px;
     }
 
 
 .back-to-top {
-  display: none;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  background-color: rgba(51, 51, 51, .25);
+  border-radius: 4px;
+  bottom: 20px;
+  right: 20px;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+
+
+
+
+@media (min-width: 550px) {
   .links {
-    position: relative;
-    bottom: inherit;
+    position: fixed;
+    bottom: 8%;
   }
   .back-to-top {
-    display: block;
+    display: none;
   }
 }
 
