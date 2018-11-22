@@ -13,10 +13,10 @@ a:visited  {
   color: #000;
 }
 a:hover{
-  color: #3183C8;
+  color: #3CAFA3;
 }
 a.active {
-  color: #3183C8;
+  color: #3CAFA3;
   font-weight: 500;
 }
 
@@ -178,12 +178,20 @@ a.active {
       }
   .mad-lib-example {
     font-style: italic;
+    line-height: 32px
   }
     .example-title {
       font-weight: bold;
       font-style: normal;
       display: block;
       margin-bottom: 8px;
+    }
+    .mad-lib-example .highlight {
+      border-bottom: 1px solid black;
+      -ms-transform: rotate(0deg); /* IE 9 */
+      -webkit-transform: rotate(0deg); /* Safari */
+      transform: rotate(0deg);
+      padding: 0 5px;
     }
 
 
@@ -231,7 +239,7 @@ a.active {
 @media (min-width: 550px) {
   .links {
     position: fixed;
-    bottom: 8%;
+    bottom: 5%;
   }
   .back-to-top {
     display: none;
