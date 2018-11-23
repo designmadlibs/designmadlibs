@@ -137,10 +137,15 @@ a.active {
           display: inline-block;
         }
 
-
+.section {
+  margin-top: 24px;
+}
 .mad-lib {
   padding: 48px 0;
   border-bottom: 1px solid #E1E7EC;
+}
+.mad-lib:first-child {
+  padding-top: 0;
 }
 .mad-lib:last-child {
   border-bottom: none;
@@ -155,9 +160,6 @@ a.active {
   }
     .highlight {
       background-color: rgba(243, 243, 21, .75);
-      -ms-transform: rotate(-3deg); /* IE 9 */
-      -webkit-transform: rotate(-3deg); /* Safari */
-      transform: rotate(-3deg);
       position: relative;
       display: inline-block;
       height: 25px;
@@ -173,9 +175,6 @@ a.active {
         margin: 10px;
         font-style: italic;
         letter-spacing: 1px;
-        -ms-transform: rotate(3deg); /* IE 9 */
-        -webkit-transform: rotate(3deg); /* Safari */
-        transform: rotate(3deg);
       }
   .mad-lib-example {
     font-style: italic;
@@ -252,7 +251,6 @@ a.active {
 
 .about-title {
   font-size: 24px;
-  padding-top: 48px;
 }
 
 
