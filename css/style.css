@@ -24,6 +24,7 @@ a.active {
 /* OVERRIDES */
 .container {
   max-width: none;
+  padding: 0;
 }
 /* For devices larger than 400px */
 @media (min-width: 400px) {
