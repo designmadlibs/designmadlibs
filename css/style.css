@@ -151,8 +151,7 @@ a.active {
   border-bottom: none;
 }
   .mad-lib-title {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 28px;
   }
   .mad-lib-formula {
     line-height: 52px;
@@ -197,9 +196,7 @@ a.active {
 
 
   .mad-lib-description {
-    line-height: 24px;
   }
-
     .description-title {
       font-weight: bold;
       display: block;
