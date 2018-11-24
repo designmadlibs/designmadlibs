@@ -42,6 +42,23 @@ $(document).ready(function(){
 	    }, 1000);
 	});
 
+
+	$('.back-to-top').on("click", function() {
+		var target = $('.logo')
+	    $('html, body').animate({
+	      scrollTop: target.offset().top
+	    }, 1000);
+	});
+
+
+	$('.highlight').hover(function(e) {
+		var number = $(this).attr('id');
+		var idNumber = '#'+number
+		var madLib = '#' + $(this).closest('.mad-lib').attr('id');
+
+		$(madLib +' '+ idNumber).css("background-color",e.type === "mouseenter"?"rgba(243, 243, 21, 1)":"rgba(243, 243, 21, .5)")
+	});
+
 });
 
 

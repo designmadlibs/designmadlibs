@@ -156,12 +156,16 @@ a.active {
   .mad-lib-formula {
     line-height: 52px;
     font-size: 20px;
+    padding: 20px 0;
   }
     .highlight {
-      background-color: rgba(243, 243, 21, .75);
+      background-color: rgba(243, 243, 21, .5);
       position: relative;
       display: inline-block;
       height: 25px;
+    }
+    .highlight:hover {
+      background-color: rgba(243, 243, 21, 1);
     }
       .under {
         line-height: 15px;
