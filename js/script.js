@@ -56,7 +56,7 @@ $(document).ready(function(){
 		var idNumber = '#'+number
 		var madLib = '#' + $(this).closest('.mad-lib').attr('id');
 
-		$(madLib +' '+ idNumber).css("background-color",e.type === "mouseenter"?"rgba(243, 243, 21, 1)":"rgba(243, 243, 21, .5)")
+		$(madLib +' '+ idNumber).css("background-color",e.type === "mouseenter"?"#A8EEEA":"rgba(243, 243, 21, .5)")
 	});
 
 });
